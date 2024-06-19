@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git-base.md",
+                "file": "home/doc/vim.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2a9e1af53fc93ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Справка git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,8 +61,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "commit",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,12 +78,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6935accad7eca032",
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git-base.md",
+                "file": "Справка git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git-base.md",
+                "file": "Справка git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git-base.md"
+                "file": "Справка git.md"
               }
             }
           }
@@ -147,15 +160,17 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "e99f1022f631653f",
+  "active": "b2a9e1af53fc93ea",
   "lastOpenFiles": [
+    "git-base.md",
+    "Справка git.md",
+    "git-ssh.md",
+    "home/doc/vim.md",
     "home/doc/novigation.md",
     "home/doc/tex-2.md",
     "Untitled.canvas",
     "Без названия.md",
     "SSH.md",
-    "git-base.md",
-    "Справка git.md",
     "lin.md",
     "Lin.md",
     "4913",
@@ -165,7 +180,6 @@
     "periodic/daily/2024-06-08.md",
     "projects/Navigator.md",
     "home/doc/node3.md",
-    "home/doc/vim.md",
     "home/doc/bash-2.md",
     "home/doc/bash.md",
     "home/doc/pacman.md",
