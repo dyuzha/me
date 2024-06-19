@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "915f8456156ebbd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "80cbfeefe75734a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e99f1022f631653f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git-base.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e2672ca846944ff3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7297dbe01c494037",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a9b1bd6835d27cc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1abb79f3f8ba5d0b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "25b7d5e53a0874b2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "6935accad7eca032",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7843aa967986a4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a110b4ebe5fc8594",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git-base.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4801ad747e23c91d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "git-base.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2141386a20432ada",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0b19b232ad4ad8e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git-base.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "e99f1022f631653f",
+  "lastOpenFiles": [
+    "home/doc/novigation.md",
+    "home/doc/tex-2.md",
+    "Untitled.canvas",
+    "Без названия.md",
+    "SSH.md",
+    "git-base.md",
+    "Справка git.md",
+    "lin.md",
+    "Lin.md",
+    "4913",
+    "git-beg.md",
+    "projects/dict/logic.md",
+    "home/doc/tex.md",
+    "periodic/daily/2024-06-08.md",
+    "projects/Navigator.md",
+    "home/doc/node3.md",
+    "home/doc/vim.md",
+    "home/doc/bash-2.md",
+    "home/doc/bash.md",
+    "home/doc/pacman.md",
+    "Markdown.md",
+    "projects/dict/structure.md",
+    "home/CMD.md",
+    "home/lin.md",
+    "home/root.md",
+    "files/obs-logo.svg",
+    "Open vim for obs.md",
+    "periodic/daily/4913",
+    "Obsidian as meaning of life.md",
+    "home/doc",
+    "files/Не подтвержден 908556.crdownload",
+    "files/Не подтвержден 833129.crdownload",
+    "https",
+    "projects",
+    "periodic/weekly",
+    "periodic/daily",
+    "periodic"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "git",
+      "color": {
+        "a": 1,
+        "rgb": 16616331
+      }
+    },
+    {
+      "query": "pacman",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "vim",
+      "color": {
+        "a": 1,
+        "rgb": 6064640
+      }
+    },
+    {
+      "query": "bash",
+      "color": {
+        "a": 1,
+        "rgb": 5431008
+      }
+    },
+    {
+      "query": "tex",
+      "color": {
+        "a": 1,
+        "rgb": 14701249
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.61019317329332,
+  "lineSizeMultiplier": 5,
+  "collapse-forces": false,
+  "centerStrength": 0.851369092273068,
+  "repelStrength": 17.387471867967,
+  "linkStrength": 1,
+  "linkDistance": 143,
+  "scale": 1.3069142275181094,
+  "close": true
+}
