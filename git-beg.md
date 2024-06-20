@@ -72,7 +72,7 @@ git init
 
 >[!Example]   Создать *git*-репозиторий с именем **main**
 >```
-git config --globl init.defultBranch main
+git config --global init.defultBranch main
 
 ##### Check #####
 ```

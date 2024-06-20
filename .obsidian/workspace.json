@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e99f1022f631653f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "home/doc/vim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b2a9e1af53fc93ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Справка git.md",
+                "file": "vim-ref.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "commit",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 378.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "6935accad7eca032",
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Справка git.md",
+                "file": "vim-ref.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Справка git.md",
+                "file": "vim-ref.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Справка git.md"
+                "file": "vim-ref.md"
               }
             }
           }
@@ -162,10 +149,21 @@
   },
   "active": "b2a9e1af53fc93ea",
   "lastOpenFiles": [
+    "4913",
+    "git-reference.md",
+    "vim-ref.md",
+    "vim.md",
+    "tex.md",
+    "tex-2.md",
+    "pacman.md",
+    "novigation.md",
+    "bash.md",
+    "bash-2.md",
     "git-base.md",
-    "Справка git.md",
-    "git-ssh.md",
+    "git-beg.md",
+    "Без названия 1.md",
     "home/doc/vim.md",
+    "git-ssh.md",
     "home/doc/novigation.md",
     "home/doc/tex-2.md",
     "Untitled.canvas",
@@ -173,25 +171,13 @@
     "SSH.md",
     "lin.md",
     "Lin.md",
-    "4913",
-    "git-beg.md",
     "projects/dict/logic.md",
     "home/doc/tex.md",
     "periodic/daily/2024-06-08.md",
     "projects/Navigator.md",
     "home/doc/node3.md",
-    "home/doc/bash-2.md",
-    "home/doc/bash.md",
-    "home/doc/pacman.md",
-    "Markdown.md",
-    "projects/dict/structure.md",
-    "home/CMD.md",
-    "home/lin.md",
-    "home/root.md",
     "files/obs-logo.svg",
-    "Open vim for obs.md",
     "periodic/daily/4913",
-    "Obsidian as meaning of life.md",
     "home/doc",
     "files/Не подтвержден 908556.crdownload",
     "files/Не подтвержден 833129.crdownload",
