@@ -6,4 +6,6 @@ tags:
   - prot
   - tex
   - vim
+  - py
+  - db
 ---
