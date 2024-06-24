@@ -4,24 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "80cbfeefe75734a7",
+        "id": "812b93c43772568f",
         "type": "tabs",
         "children": [
           {
-            "id": "147924b14cbc8336",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "dab03016f2458d98",
+            "id": "b12462ec0fc832d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "db-cons.md",
+                "file": "vim-ref.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "257b6fc344f376a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vim-ref.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "db",
+                "query": "vim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5004348754883,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6935accad7eca032",
@@ -96,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "db-cons.md",
+                "file": "vim-ref.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "db-cons.md",
+                "file": "vim-ref.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "db-cons.md"
+                "file": "vim-ref.md"
               }
             }
           }
@@ -157,22 +160,24 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "dab03016f2458d98",
+  "active": "257b6fc344f376a9",
   "lastOpenFiles": [
-    "4913",
+    "git-reference.md",
+    "py-cons.md",
+    "Python.md",
+    "py-oop-beg.md",
+    "db-oper.md",
     "db-cons.md",
+    "vim-ref.md",
     "db-beg.md",
+    "4913",
     "lin.md",
     "date-base.md",
-    "Python.md",
     "projects/dict/logic.md",
     "projects/dict/structure.md",
     "projects/Navigator.md",
-    "py-oop-beg.md",
     "home/goals.md",
     "Без названия 1.md",
-    "vim-ref.md",
-    "git-reference.md",
     "vim.md",
     "tex.md",
     "tex-2.md",
@@ -184,7 +189,6 @@
     "git-beg.md",
     "home/doc/vim.md",
     "git-ssh.md",
-    "home/doc/novigation.md",
     "Untitled.canvas",
     "files/obs-logo.svg",
     "periodic/daily/4913",
