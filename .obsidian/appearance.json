@@ -1,8 +1,8 @@
 {
   "accentColor": "#0087af",
-  "theme": "system",
+  "theme": "obsidian",
   "showViewHeader": true,
-  "interfaceFontFamily": "Bahnschrift",
+  "interfaceFontFamily": "Inter",
   "textFontFamily": "Bahnschrift",
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono"
 }

@@ -14,18 +14,23 @@ l
 - [[files]] 
 ---
 >[!Warning]
-> Danger!!!
-
- >[!Eddit]
- >This is temp par
+> Text not's
  
->[!Note] Note 
+>[!FAQ] FAQ
 > Text not's
 
-
->[!Info] Note 
+>[!Note] 
 > Text not's
----
+
+>[!Info]  
+> Text not's
+
+>[!TIP]
+> Text not's
+
+>[!summary]
+> Text not's
+
 ### Block code ###
 ```name
 int main()
@@ -42,5 +47,25 @@ int main()
 
 
 
+>[!Warning]
+> Text not's
+ 
+>[!FAQ] FAQ
+> Text not's
 
+>[!Note] 
+> Text not's
 
+>[!Info]  
+> Text not's
+
+>[!TIP]
+> Text not's
+
+>[!summary]
+> Text not's
+
+>[!TIP] Также можно тут писать
+
+>Пример 
+>текст муиеуи каукк
