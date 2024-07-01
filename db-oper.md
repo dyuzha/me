@@ -10,6 +10,125 @@ age INTEGER
 )
 ```
 
+```sqlite
+CREATE TABLE IF NOT EXISTS [TABLE-NAME]
+```
+- IF NOT EXISTS - Проверяет существует такая таблица или нет
+
+
+## Ограничения ##
+---
+#### PRIMARY KEY ####
+---
+```sqlite
+id INTEGER PRIMARY KEY
+```
+- Данное поле будет выступать в качестве первичного ключа
+
+>[!Warning] Установка первичного ключа на уровне таблицы
+```sqlite
+CREATE TABLE users (
+    id INTEGER,
+    name TEXT,
+    age INTEGER,
+    email TEXT,
+    PRIMARY KEY(id)
+);
+```
+
+>[!Warning] Установка составного первичного ключа
+```sqlite
+CREATE TABLE users (
+    id INTEGER,
+    name TEXT,
+    age INTEGER,
+    email TEXT,
+    PRIMARY KEY(id, name)
+);
+```
+- Составной первичный ключ
+
+#### AUTOINCREMENT ####
+---
+```sqlite
+id INTEGER PRIMARY KEY AUTOINCREMENT
+```
+- Автоматически увеличивает данное число на 1
+
+#### UNIQUE ####
+---
+```sqlite
+email TEXT UNIQUE
+```
+- Данные строки должны быть уникальными
+
+>[!Warning] Определение ограничения на уровне таблицы
+```sqlite
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    age INTEGER,
+    email TEXT,
+    UNIQUE (name, email)
+);
+```
+- В данном случае устанавливается ограничение сразу для двух столбцов
+
+#### DEFAULT ####
+---
+```sqlite
+age INTEGER DEFAULT 18
+```
+- Выставляет значение по умолчанию
+
+
+#### NOT / NOT NULL ####
+---
+```sqlite
+name TEXT NOT NULL,
+```
+- Столбец name не допускает значение NULL
+
+>[!info] По умолчанию любой столбец, если он не представляет первичный ключ,может принимать значение NULL.
+
+#### CHECK ####
+---
+- Создает ограничение для диапазона значений
+```sqlite
+name TEXT NOT NULL CHECK(name != '')
+age INTEGER NOT NULL CHECK(age >0 AND age < 100)
+```
+
+>[!Warning] Использование CHECK на уровне таблицы
+```sqlite
+CREATE TABLE users
+(
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    age INTEGER NOT NULL,
+    CHECK ((age >0 AND age < 100) AND (name !=''))
+);
+```
+
+#### CONSTRAINT ####
+---
+- С помощью данного оператора можно задавать имена ограничениям.
+    - Для последующего управления ими.
+
+>[!Example]
+```sqlite
+CREATE TABLE users
+(
+    id INTEGER,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL,
+    age INTEGER NOT NULL,
+    CONSTRAINT users_pk PRIMARY KEY(id),
+    CONSTRAINT user_email_uq UNIQUE(email),
+    CONSTRAINT user_age_chk CHECK(age >0 AND age < 100)
+);
+```
+
 # INSERT #
 ---
 >[!Note] Sample
@@ -37,8 +156,65 @@ INSERT INTO users(name, age) VALUES
 ---
 
 ```sqlite
-select * from [table-name];
+SELECT <attr>
+FROM 
+ORDER BY
+WHERE
+LIMIT
 ```
-- Получить все данные
 
-https://metanit.com/sql/sqlite/3.2.php
+# UPDATE #
+---
+
+```sqlite
+UPDATE <name-db>
+SET <attr>
+WHERE
+    <attr>
+```
+
+# DELETE  #
+---
+```sqlite
+DROP TABLE IF EXISTS [TABLE-NAME]
+```
+
+
+
+# ATTACH #
+---
+
+```sqlite
+ATTACH DATEBASE 'putch/to/file' AS [alias];
+```
+- Прикрепоение *db*
+
+
+# ALTER #
+---
+Команда **ALTER** используется чтобы изменять уже созданные таблицы.
+
+```sqlite
+ALTER TABLE <name-tb>
+RENAME TO <new-name-tb>;
+```
+- Переименование таблицы
+
+```sqlite
+ALTER TABLE <name-tb>
+ADD COLUMN <name-col> <ограничения>;
+```
+- Добавление столбца
+
+```sqlite
+ALTER TABLE <name-tb>
+RENAME COLUMN <name-col> TO <new-name-col>;
+```
+- Переименование столбца
+
+```sqlite
+ALTER TABLE <name-tb>
+DROP COLUMN <name-col>;
+```
+- Удаление столбца
+

@@ -13,16 +13,29 @@ sqlite3
 ```sqlite
 .help
 ```
+- Вывести справку
 
-# Операции с данными #
+
+# Mode
 ---
+Изменение выходных параметров
 ```sqlite
-INSERT INTO [table-name] values (attr1, attr2...);
+.mode
 ```
-- Добавление данных в бд
+Возможные варианты:
+- ascii
+- box
+- csv
+- column
+- html
+- insert
+- json
+- line
+- list
+- markdown
+- quote
+- table
+- tabs
+- tcl
 
-```sqlite
-select * from [table-name];
-```
-- Получить все данные
 
